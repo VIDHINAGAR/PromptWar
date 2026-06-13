@@ -105,6 +105,12 @@ npm run build
 npm run preview
 ```
 
+### Run the test suite
+```bash
+npm test
+```
+22 unit tests (Vitest) cover the core stress-pattern engine — trigger detection, sleep↔mood correlation, burnout scoring, and the conversational fallback logic.
+
 ---
 
 ## 🎨 Tech & Design
